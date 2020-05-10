@@ -6,8 +6,14 @@
     <title>Document Title</title>
     <link rel="stylesheet" href="//common.yscase.com/css/reset.css" type="text/css"/>
     <link rel="stylesheet" href="css/app.css" type="text/css">
-    <!-- 百度统计 -->
     <script>
+        // 测试站点通知条
+        var ys = document.createElement("script");
+        ys.src = "//cdn.yscase.com/common/test-notify-bar.min.js";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(ys, s);
+
+        // 百度统计
         var _hmt = _hmt || [];
         (function () {
         var hm = document.createElement("script");
